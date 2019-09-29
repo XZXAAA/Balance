@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: X xzx, XZX, LIC=50DWF-6MN71-04USQ-N403R-VLY2D-4QCKN
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\Program\keilMDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\Keil_MDK\直流霍尔电机\USER\Template.uvprojx
+Project File Date:  09/05/2019
+
+<h2>Output:</h2>
+Build target 'Template'
+compiling main.c...
+main.c(52): error:  #137: expression must be a modifiable lvalue
+                        a++;
+main.c(94): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                        OLED_ShowString(0,35,t,12);
+main.c(98): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                        OLED_ShowString(0,20,t,12);
+main.c(100): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                        OLED_ShowString(0,5,t,12);
+main.c(102): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                        OLED_ShowString(0,50,t,12);
+main.c(47): warning:  #177-D: variable "pitch" was declared but never referenced
+         float pitch,roll,yaw;          //欧拉角
+main.c(47): warning:  #177-D: variable "roll" was declared but never referenced
+         float pitch,roll,yaw;          //欧拉角
+main.c(47): warning:  #177-D: variable "yaw" was declared but never referenced
+         float pitch,roll,yaw;          //欧拉角
+main.c: 7 warnings, 1 error
+"..\OBJ\Template.axf" - 1 Error(s), 7 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\Keil_MDK\直流霍尔电机\USER\RTE
+  D:\Program\keilMDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>
